@@ -1,0 +1,19 @@
+Todo:
+1. make a simple web server
+2. implement an access point for the clients to attach to (tcp)
+3. make functionality for uploading a single file
+4. create a way for the client to download that file
+5. make uploading multiple files possible
+6. enable the client to browse through the files on the server
+7. make downloading multiple files possible
+8. make the server multithreaded so that many clients can connect at the same time
+8.2. implement some kind of authorization
+9. make the downloads parallel
+10. make the uploads faster (maybe paralell from the client using separate tcp connections like copyparty)
+11. make error corrections for each file chunk that is uploaded to the server (probably using checksums)
+12. implement file deduplication (when a file that is already on the server is uploaded just creata symlink to an existing file)
+13. make the uploads resetable (when the connnection fails in the middle of uploading/downloading just resume asap)
+14. make synchronising the files an option (when there is a change in client files you can synchronise)
+15. add support for sharing files with other servers
+16. add support for sharing files with a special link
+17. add configuration for the server (so that maybe everyone can download but they can't change or move anything)
