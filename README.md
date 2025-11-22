@@ -39,3 +39,4 @@ PUT   → receives file and saves
 - Implement simple directory permission solution
 - Share files by link
 - Server configuration file instead of hardcoding
+- Client can also be a server
